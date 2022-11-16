@@ -14,32 +14,34 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="even-columns">
-        <div class="image">
-          <picture>
-            <source media="(max-width: 38rem)" srcset="images/image-product-mobile.jpg" />
-            <source media="(min-width: 38.0625rem)" srcset="images/image-product-desktop.jpg" />
-            <img src="images/image-product-mobile.jpg" alt="Chris standing up holding his daughter Elva" />
-          </picture>
-        </div>
-        <div class="product-info">
-          <p class="product-category">Perfume</p>
-          <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
-          <p class="product-description">
-            A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator forthe House of CHANEL.
-          </p>
-          <div class="product-prices">
-            <p class="product-price-sale">$149.99</p>
-            <p class="product-price-retail">$169.99</p>
+    <main>
+      <div class="container">
+        <div class="even-columns">
+          <div class="image">
+            <picture>
+              <source media="(max-width: 38rem)" srcset="images/image-product-mobile.jpg" />
+              <source media="(min-width: 38.0625rem)" srcset="images/image-product-desktop.jpg" />
+              <img src="images/image-product-mobile.jpg" alt="Chris standing up holding his daughter Elva" />
+            </picture>
           </div>
-          <button><img class="svg-cart" src="images/icon-cart.svg" alt="" /> Add to Cart</button>
+          <div class="product-info">
+            <p class="product-category">Perfume</p>
+            <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
+            <p class="product-description">
+              A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator forthe House of CHANEL.
+            </p>
+            <div class="product-prices">
+              <p class="product-price-sale">$149.99</p>
+              <p class="product-price-retail">$169.99</p>
+            </div>
+            <button><img class="svg-cart" src="images/icon-cart.svg" alt="" /> Add to Cart</button>
+          </div>
         </div>
       </div>
-      <div class="attribution">
+    </main>
+    <footer>
+     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
         <a href="#">Ryan Snow</a>.
       </div>
-    </div>
-  </body>
 </html>
